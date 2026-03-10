@@ -57,8 +57,6 @@ Even though this is a web app, you can install it on your phone like a normal ap
 
 The Cypher Scouting app will now appear on your home screen and will now launch in **full-screen mode** like a normal app.
 
----
-
 ### Android (Chrome)
 
 1. Open the website in **Chrome**
