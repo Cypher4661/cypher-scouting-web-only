@@ -2,7 +2,7 @@
 <tr>
 <td>
 
-# 🛰️ Cypher Scouting Web-Only 2026
+# 🛰️ Cypher 4661 Scouting Web-Only 2026
 
 A fast, lightweight **robotics competition scouting system** built with **Flutter Web**.
 
