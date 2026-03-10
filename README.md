@@ -44,6 +44,29 @@ It allows teams to efficiently collect and analyze match data in real time.
 The application runs completely inside the browser using **Flutter Web**.
 
 ---
+## 📱 Add to Home Screen (Mobile)
+
+Even though this is a web app, you can install it on your phone like a normal app.
+
+### iPhone / iPad (Safari)
+
+1. Open the website in **Safari**  
+2. Tap the **Share button** (square with arrow)  
+3. Scroll down and tap **"Add to Home Screen"**  
+4. Press **Add**
+
+The Cypher Scouting app will now appear on your home screen and will now launch in **full-screen mode** like a normal app.
+
+---
+
+### Android (Chrome)
+
+1. Open the website in **Chrome**
+2. Tap the **three dots menu** in the top right
+3. Tap **"Add to Home screen"**
+4. Confirm by pressing **Add**
+
+The Cypher Scouting app will now appear on your home screen and will now launch in **full-screen mode** like a normal app.
 
 ---
 
