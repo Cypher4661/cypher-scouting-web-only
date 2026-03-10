@@ -42,6 +42,9 @@ Cypher Scouting is a scouting system for robotics competitions, made to capture 
 - If you want to change behavior, edit the original Flutter project and rebuild with `flutter build web`.
 - Keep asset hashes and `version.json` updated when redeploying.
 
+## �️ Brand assets
+![Cypher logo](assets/logo.png)
+
 ## 📣 Quick callouts
 - Single-page app with Flutter web runtime
 - Designed for scouting and data capture in competitive environments
@@ -50,4 +53,6 @@ Cypher Scouting is a scouting system for robotics competitions, made to capture 
 ---
 
 Made with :heart: for Cypher teams.
+
+> Document updated for 2026.
 
