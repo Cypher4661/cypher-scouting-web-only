@@ -1,58 +1,192 @@
-# Cypher Scouting (Web-only)
+<table>
+<tr>
+<td>
 
-[Live Demo](https://cypherscouting.netlify.app/)
+# 🛰️ Cypher Scouting Web-Only 2026
 
-> This repository contains the static web build of the Cypher Scouting app (Flutter web output only).
+A fast, lightweight **robotics competition scouting system** built with **Flutter Web**.
 
-## 🚀 What is this?
-Cypher Scouting is a scouting system for robotics competitions, made to capture match data, team performance, and strategy insights. This repo contains the built web assets (HTML/CSS/JS/png) ready to host via Netlify, GitHub Pages, or any static file server.
+Cypher Scouting helps teams **capture match data, analyze team performance, and generate strategic insights** during competitions.
 
-## ⚙️ Included files
-- `index.html`
-- `main.dart.js`
-- `flutter.js`, `flutter_bootstrap.js`, `flutter_service_worker.js`
-- `manifest.json`, `version.json`
-- `assets/` (images, fonts, packages, shaders)
-- `canvaskit/` (optional Flutter CanvasKit renderer files)
-- `icons/`
+Built for **Cypher teams – 2026**
 
-## 🌎 Supported platforms
-- Desktop browsers (Chrome, Edge, Firefox, Safari)
-- *Mobile browsers may not be fully supported* (already noted in the original repo text)
+</td>
+<td align="right">
 
-## 🧩 How to run locally (static files)
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/Cypher4661/cypher-scouting-web-only.git
-   cd cypher-scouting-web-only
-   ```
-2. Start a local HTTP server (recommended):
-   ```bash
-   npx serve .
-   ```
-3. Open `http://localhost:3000` in your browser.
+<img src="assets/logo.png" width="140">
 
-## 📦 How to deploy
-- Netlify: drag and drop the folder or connect repo and set publish directory to `/`
-- GitHub Pages: set branch to `main` and folder to `/` (or use the `docs/` strategy)
-- Vercel: set framework to "Other", output directory to `/`
-
-## 🛠️ Notes for contributors
-- This repo is a compiled output of a Flutter project, not the source.
-- If you want to change behavior, edit the original Flutter project and rebuild with `flutter build web`.
-- Keep asset hashes and `version.json` updated when redeploying.
-
-## �️ Brand assets
-![Cypher logo](assets/logo.png)
-
-## 📣 Quick callouts
-- Single-page app with Flutter web runtime
-- Designed for scouting and data capture in competitive environments
-- Works best on desktop and modern browsers
+</td>
+</tr>
+</table>
 
 ---
 
-Made with :heart: for Cypher teams.
+## 🚀 Live Demo
 
-> Document updated for 2026.
+🌐 https://cypherscouting.netlify.app/
 
+Try the deployed version to see the scouting interface in action.
+
+---
+
+## 📊 What is Cypher Scouting?
+
+**Cypher Scouting** is a scouting platform designed for robotics competitions such as **FRC**.  
+It allows teams to efficiently collect and analyze match data in real time.
+
+### Key Capabilities
+
+- 📋 Match performance tracking  
+- 📈 Team statistics collection  
+- 🤖 Strategy insights for alliance selection  
+- ⚡ Fast scouting workflow optimized for competitions  
+
+The application runs completely inside the browser using **Flutter Web**.
+
+---
+
+## 📦 Repository Contents
+
+This repository contains **only the compiled web output** from the Flutter project.
+
+```
+index.html
+main.dart.js
+flutter.js
+flutter_bootstrap.js
+flutter_service_worker.js
+manifest.json
+version.json
+assets/
+icons/
+canvaskit/
+```
+
+### Important
+
+This repository **does not contain the Flutter source code**.
+
+If you want to modify the application behavior, you must edit the original Flutter project and rebuild the web version.
+
+---
+
+## 🌎 Supported Platforms
+
+Best experience on modern **desktop browsers**:
+
+- Chrome
+- Edge
+- Firefox
+- Safari
+
+⚠️ Mobile browsers may work but **are not fully optimized**.
+
+---
+
+## 🖥️ Running Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Cypher4661/cypher-scouting-web-only.git
+cd cypher-scouting-web-only
+```
+
+Start a local HTTP server:
+
+```bash
+npx serve .
+```
+
+Open the application:
+
+```
+http://localhost:3000
+```
+
+---
+
+## ☁️ Deployment
+
+Because this project is **static**, deployment is very simple.
+
+### Netlify
+
+- Drag and drop the folder  
+- OR connect the repository  
+
+Set:
+
+```
+Publish directory: /
+```
+
+---
+
+### GitHub Pages
+
+Set:
+
+```
+Branch: main
+Folder: /
+```
+
+---
+
+### Vercel
+
+Set:
+
+```
+Framework preset: Other
+Output directory: /
+```
+
+---
+
+## 🛠️ For Contributors
+
+This repository contains **compiled assets only**.
+
+To change the application:
+
+1. Edit the original Flutter project
+2. Build the web version
+
+```bash
+flutter build web
+```
+
+3. Replace the files in this repository
+4. Commit and redeploy
+
+Remember to update:
+
+- `version.json`
+- asset hashes
+
+---
+
+## 🧩 Tech Stack
+
+- Flutter Web
+- CanvasKit Renderer
+- Static Hosting (Netlify / GitHub Pages / Vercel)
+
+---
+
+## 📣 Project Highlights
+
+⭐ Single-page Flutter web application  
+⭐ Optimized for fast scouting during competitions  
+⭐ Runs completely in the browser  
+⭐ Designed for robotics scouting workflows  
+
+---
+
+## ❤️ Credits
+
+Made with ❤️ for **Cypher Robotics Teams**
+
+**Cypher Scouting Web-Only — 2026**
