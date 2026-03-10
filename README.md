@@ -45,6 +45,17 @@ The application runs completely inside the browser using **Flutter Web**.
 
 ---
 
+---
+
+## 📣 Project Highlights
+
+⭐ Single-page Flutter web application  
+⭐ Optimized for fast scouting during competitions  
+⭐ Runs completely in the browser  
+⭐ Designed for robotics scouting workflows  
+
+---
+
 ## 📦 Repository Contents
 
 This repository contains **only the compiled web output** from the Flutter project.
@@ -113,15 +124,6 @@ Remember to update:
 - Flutter Web
 - CanvasKit Renderer
 - Static Hosting (Netlify / GitHub Pages / Vercel)
-
----
-
-## 📣 Project Highlights
-
-⭐ Single-page Flutter web application  
-⭐ Optimized for fast scouting during competitions  
-⭐ Runs completely in the browser  
-⭐ Designed for robotics scouting workflows  
 
 ---
 
